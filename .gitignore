@@ -1,0 +1,9 @@
+# Personal learning context stays out of project commits.
+/devpost/learner-profile.md
+# Never commit local credentials. A secret-free example is allowed.
+.env
+.env.*
+!.env.example
+# Local QA output and generated archive.
+qa/*.png
+*.zip
